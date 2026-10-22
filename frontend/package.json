@@ -1,0 +1,16 @@
+{
+  "name": "file-genie-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electron desktop frontend for File Genie",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^45.0.0"
+  },
+  "allowScripts": {
+    "electron@35.7.5": true
+  }
+}
